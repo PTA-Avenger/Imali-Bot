@@ -1,0 +1,352 @@
+[
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_002",
+    "topic": "Fraud Detection",
+    "content": "Benford's Law Analysis: In a natural set of financial numbers, the leading digit 1 appears about 30% of the time. If the distribution varies significantly, flag for audit.",
+    "heuristic": "IF leading_digit_1_freq < 0.25 OR leading_digit_1_freq > 0.35 THEN flag_audit('Benford Anomaly')",
+    "region": "Global"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_001",
+    "topic": "Tax Compliance",
+    "content": "For SMEs in South Africa, VAT registration is mandatory if total value of taxable supplies exceeds R1 million in any consecutive 12-month period.",
+    "heuristic": "IF rolling_revenue_12m > 1000000 THEN trigger_alert('VAT Registration Required')",
+    "region": "ZA"
+  },
+  {
+    "id": "strat_003",
+    "topic": "Cash Flow",
+    "content": "To optimize cash flow during load shedding: Factor in diesel costs for generators as 'Operational Expense' rather than 'Emergency Fund' to maintain accurate margin calculations.",
+    "heuristic": "categorize_expense('diesel', 'OPEX')",
+    "region": "ZA"
+  }
+]
